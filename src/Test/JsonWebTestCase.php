@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace MT85\PHPUnitJsonTestCaseBundle\Test;
+namespace Tomiozo\PHPUnitJsonTestCaseBundle\Test;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

@@ -1,8 +1,8 @@
 {
-    "name": "mt85/phpunit-json-test-case-bundle",
+    "name": "tomiozo/phpunit-json-test-case-bundle",
     "description": "Test case simpling testing JSON requests",
     "type": "library",
-    "license": "LGPL-3.0-only",
+    "license": "MIT",
     "require": {
         "php": "^7.4",
         "ext-json": "*",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MT85\\PHPUnitJsonTestCaseBundle\\": "src/"
+            "Tomiozo\\PHPUnitJsonTestCaseBundle\\": "src/"
         }
     }
 }
