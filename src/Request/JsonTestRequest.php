@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Tomiozo\PHPUnitJsonTestCaseBundle\Request;
+namespace MT85\PHPUnitJsonTestCaseBundle\Request;
 
 use Symfony\Component\HttpFoundation\Request;
 
