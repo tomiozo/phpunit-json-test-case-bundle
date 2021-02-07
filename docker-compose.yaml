@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+    phpunit-json-test-case-bundle-fpm:
+        image: tomiozo/base:php74-fpm
+        container_name: phpunit-json-test-case-bundle-fpm
+        working_dir: /bundle
+        volumes:
+            - ./:/bundle
+            - bundle-vendor:/bundle/vendor
+volumes:
+    bundle-vendor:

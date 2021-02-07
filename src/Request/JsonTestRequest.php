@@ -7,6 +7,15 @@ use Symfony\Component\HttpFoundation\Request;
 
 class JsonTestRequest extends Request
 {
+    /**
+     * @param array $query
+     * @param array $request
+     * @param array $attributes
+     * @param array $cookies
+     * @param array $files
+     * @param array $server
+     * @param string|null  $content
+     */
     public function __construct(
         array $query = [],
         array $request = [],
@@ -14,7 +23,7 @@ class JsonTestRequest extends Request
         array $cookies = [],
         array $files = [],
         array $server = [],
-        $content = null
+        ?string $content = null
     ) {
         $server = array_merge(
             $server,
