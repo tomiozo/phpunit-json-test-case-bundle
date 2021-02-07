@@ -23,7 +23,7 @@ class JsonTestRequest extends Request
         array $cookies = [],
         array $files = [],
         array $server = [],
-        ?string $content = null
+        string $content = ''
     ) {
         $server = array_merge(
             $server,
